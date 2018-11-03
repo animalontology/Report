@@ -1,0 +1,997 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.animal.com/ontologies/animal.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.animal.com/ontologies/animal.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/thales/ontologies/2018/9/untitled-ontology-10"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Ontology aiming to classify animals and plants according to its main characteristics like reproduction, energy obtention, habitat, etc.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amphibia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arthropoda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bipedes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bird"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carnivorous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chordata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Claws"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feathers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrassLand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habitat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Herbivorous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heterotrophs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insectivorous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LifeBeing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mammal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multipedes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedAnimal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedPlant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oisteichthyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Omnivorous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oviparous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovoviparous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photosynthesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pollination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quadrupedes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reproduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reptile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seaweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SourceOfEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spiders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tetrapoda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tundra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VertebralColumn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viviparous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wings"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReproductionType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSourceOfEnergy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEatenBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHomeTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPresentIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isReproductionTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSourceOfEnergyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedToMoveBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#livesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#movesBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bear1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fish1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#human1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skin1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#whale1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AdditionalCharacteristics"/>
+        <Class IRI="#Characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amphibia"/>
+        <Class IRI="#NamedAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amphibia"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <Class IRI="#Ovoviparous"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#livesIn"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Forest"/>
+                    <Class IRI="#Water"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <Class IRI="#Legs"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <Class IRI="#LifeBeing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Oviparous"/>
+                    <Class IRI="#Ovoviparous"/>
+                    <Class IRI="#Viviparous"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSourceOfEnergy"/>
+                <Class IRI="#Heterotrophs"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Fins"/>
+                    <Class IRI="#Legs"/>
+                    <Class IRI="#Wings"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arthropoda"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arthropoda"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Oviparous"/>
+                    <Class IRI="#Ovoviparous"/>
+                    <Class IRI="#Viviparous"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSourceOfEnergy"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Herbivorous"/>
+                    <Class IRI="#Insectivorous"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Legs"/>
+                    <Class IRI="#Wings"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bipedes"/>
+        <Class IRI="#Legs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bird"/>
+        <Class IRI="#NamedAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bird"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#Feathers"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <Class IRI="#Oviparous"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSourceOfEnergy"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Carnivorous"/>
+                    <Class IRI="#Herbivorous"/>
+                    <Class IRI="#Insectivorous"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <Class IRI="#Wings"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carnivorous"/>
+        <Class IRI="#Heterotrophs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chordata"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chordata"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#VertebralColumn"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#City"/>
+        <Class IRI="#Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Claws"/>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desert"/>
+        <Class IRI="#Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feathers"/>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fins"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <Class IRI="#NamedAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#Scales"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#livesIn"/>
+                <Class IRI="#Water"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <Class IRI="#Fins"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forest"/>
+        <Class IRI="#Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fur"/>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grass"/>
+        <Class IRI="#NamedPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grass"/>
+        <ObjectUnionOf>
+            <Class IRI="#Desert"/>
+            <Class IRI="#Forest"/>
+            <Class IRI="#GrassLand"/>
+            <Class IRI="#Tundra"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#livesIn"/>
+                <Class IRI="#City"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrassLand"/>
+        <Class IRI="#Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Herbivorous"/>
+        <Class IRI="#Heterotrophs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heterotrophs"/>
+        <Class IRI="#SourceOfEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insect"/>
+        <Class IRI="#NamedAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insect"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Oviparous"/>
+                    <Class IRI="#Ovoviparous"/>
+                    <Class IRI="#Viviparous"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSourceOfEnergy"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Herbivorous"/>
+                    <Class IRI="#Insectivorous"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Legs"/>
+                    <Class IRI="#Wings"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insectivorous"/>
+        <Class IRI="#Heterotrophs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legs"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LifeBeing"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#AdditionalCharacteristics"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <Class IRI="#Reproduction"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSourceOfEnergy"/>
+                <Class IRI="#SourceOfEnergy"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#livesIn"/>
+                <Class IRI="#Habitat"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <Class IRI="#Movement"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mammal"/>
+        <Class IRI="#NamedAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mammal"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Claws"/>
+                    <Class IRI="#Fur"/>
+                    <Class IRI="#Skin"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <Class IRI="#Viviparous"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <Class IRI="#Legs"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multipedes"/>
+        <Class IRI="#Legs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedAnimal"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedPlant"/>
+        <Class IRI="#Plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoMovement"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oisteichthyes"/>
+        <Class IRI="#Chordata"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oisteichthyes"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#eats"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Oisteichthyes"/>
+                    <Class IRI="#Plant"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#Scales"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isEatenBy"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Oisteichthyes"/>
+                    <Class IRI="#Tetrapoda"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#livesIn"/>
+                <Class IRI="#Water"/>
+            </ObjectAllValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <Class IRI="#Fins"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Omnivorous"/>
+        <Class IRI="#Heterotrophs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oviparous"/>
+        <Class IRI="#Reproduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ovoviparous"/>
+        <Class IRI="#Reproduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photosynthesis"/>
+        <Class IRI="#SourceOfEnergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plant"/>
+        <Class IRI="#LifeBeing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plant"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <Class IRI="#Pollination"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasSourceOfEnergy"/>
+                <Class IRI="#Photosynthesis"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <Class IRI="#NoMovement"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pollination"/>
+        <Class IRI="#Reproduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quadrupedes"/>
+        <Class IRI="#Legs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reproduction"/>
+        <Class IRI="#Characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reptile"/>
+        <Class IRI="#NamedAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reptile"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#Scales"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReproductionType"/>
+                <Class IRI="#Oviparous"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <Class IRI="#Legs"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scales"/>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <Class IRI="#NamedPlant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#livesIn"/>
+            <Class IRI="#Water"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skin"/>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SourceOfEnergy"/>
+        <Class IRI="#Characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spiders"/>
+        <Class IRI="#NamedAnimal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetrapoda"/>
+        <Class IRI="#Chordata"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetrapoda"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#eats"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Animal"/>
+                    <Class IRI="#Plant"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isEatenBy"/>
+                <Class IRI="#Tetrapoda"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#movesBy"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Legs"/>
+                    <Class IRI="#Wings"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tundra"/>
+        <Class IRI="#Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VertebralColumn"/>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viviparous"/>
+        <Class IRI="#Reproduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water"/>
+        <Class IRI="#Habitat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wings"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AdditionalCharacteristics"/>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Reproduction"/>
+        <Class IRI="#SourceOfEnergy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Animal"/>
+        <Class IRI="#Characteristics"/>
+        <Class IRI="#Habitat"/>
+        <Class IRI="#Plant"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Arthropoda"/>
+        <Class IRI="#Chordata"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bipedes"/>
+        <Class IRI="#Multipedes"/>
+        <Class IRI="#Quadrupedes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Carnivorous"/>
+        <Class IRI="#Herbivorous"/>
+        <Class IRI="#Omnivorous"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#City"/>
+        <Class IRI="#Desert"/>
+        <Class IRI="#Forest"/>
+        <Class IRI="#GrassLand"/>
+        <Class IRI="#Tundra"/>
+        <Class IRI="#Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Claws"/>
+        <Class IRI="#Feathers"/>
+        <Class IRI="#Fur"/>
+        <Class IRI="#Scales"/>
+        <Class IRI="#Skin"/>
+        <Class IRI="#VertebralColumn"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Desert"/>
+        <Class IRI="#Forest"/>
+        <Class IRI="#GrassLand"/>
+        <Class IRI="#Tundra"/>
+        <Class IRI="#Water"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Grass"/>
+        <Class IRI="#Seaweed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Oisteichthyes"/>
+        <Class IRI="#Tetrapoda"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Oviparous"/>
+        <Class IRI="#Ovoviparous"/>
+        <Class IRI="#Pollination"/>
+        <Class IRI="#Viviparous"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Tetrapoda"/>
+        <NamedIndividual IRI="#bear1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oisteichthyes"/>
+        <NamedIndividual IRI="#fish1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tetrapoda"/>
+        <NamedIndividual IRI="#human1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Water"/>
+        <NamedIndividual IRI="#sea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skin"/>
+        <NamedIndividual IRI="#skin1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mammal"/>
+        <NamedIndividual IRI="#whale1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#eats"/>
+        <NamedIndividual IRI="#bear1"/>
+        <NamedIndividual IRI="#fish1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEatenBy"/>
+        <NamedIndividual IRI="#fish1"/>
+        <NamedIndividual IRI="#bear1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#human1"/>
+        <NamedIndividual IRI="#skin1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#whale1"/>
+        <NamedIndividual IRI="#sea1"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReproductionType"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isEatenBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isHomeTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isReproductionTypeOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#livesIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#movesBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#eats"/>
+        <ObjectProperty IRI="#isEatenBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has"/>
+        <ObjectProperty IRI="#isPresentIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasReproductionType"/>
+        <ObjectProperty IRI="#isReproductionTypeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSourceOfEnergy"/>
+        <ObjectProperty IRI="#isSourceOfEnergyOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isHomeTo"/>
+        <ObjectProperty IRI="#livesIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isUsedToMoveBy"/>
+        <ObjectProperty IRI="#movesBy"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasReproductionType"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eats"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReproductionType"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSourceOfEnergy"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEatenBy"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHomeTo"/>
+        <Class IRI="#Habitat"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPresentIn"/>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isReproductionTypeOf"/>
+        <Class IRI="#Reproduction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSourceOfEnergyOf"/>
+        <Class IRI="#SourceOfEnergy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsedToMoveBy"/>
+        <Class IRI="#Movement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#livesIn"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#movesBy"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eats"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#AdditionalCharacteristics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReproductionType"/>
+        <Class IRI="#Reproduction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSourceOfEnergy"/>
+        <Class IRI="#SourceOfEnergy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEatenBy"/>
+        <Class IRI="#Animal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHomeTo"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPresentIn"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isReproductionTypeOf"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSourceOfEnergyOf"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsedToMoveBy"/>
+        <Class IRI="#LifeBeing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#livesIn"/>
+        <Class IRI="#Habitat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#movesBy"/>
+        <Class IRI="#Movement"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
